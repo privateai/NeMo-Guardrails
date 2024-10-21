@@ -9,7 +9,7 @@ flow detect pii on input
     abort
 
 
-# INPUT RAILS
+# OUTPUT RAILS
 
 flow detect pii on output
   """Check if the bot output has PII."""
