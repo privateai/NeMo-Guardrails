@@ -9,7 +9,7 @@ define subflow detect pii on input
     stop
 
 
-# INPUT RAILS
+# OUTPUT RAILS
 
 define subflow detect pii on output
   """Check if the bot output has PII."""
